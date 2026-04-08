@@ -50,7 +50,8 @@ main {
   justify-content: flex-end;
   padding: 10px 0;
   margin-bottom: 16px;
-  background: rgba(248, 250, 252, 0.95);
+  background: rgba(248, 250, 252, 0.4);
+  backdrop-filter: blur(30px);
 }
 
 .btn {
@@ -63,6 +64,7 @@ main {
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -409,12 +411,17 @@ main {
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 14px 16px;
-  width: 100%;
   background: #fff;
 }
 
 .contact-form button {
   width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 250px;
 }
 
 .contact-card a {
