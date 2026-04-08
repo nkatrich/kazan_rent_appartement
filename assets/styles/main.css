@@ -54,13 +54,14 @@ main {
 }
 
 .btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 20px;
   border-radius: 12px;
+  border: none;
+  padding: 15px 20px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: bold;
   transition: transform 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
 }
 
@@ -170,7 +171,7 @@ main {
 }
 
 .hero-actions a {
-  min-width: 165px;
+  
 }
 
 .hero-media {
@@ -489,10 +490,6 @@ footer p {
 
   .hero-actions {
     flex-direction: column;
-  }
-
-  .btn {
-    width: 100%;
   }
 
   .hero-badges {
