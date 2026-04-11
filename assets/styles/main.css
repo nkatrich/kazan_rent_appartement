@@ -3,9 +3,11 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  background: #f8fafc;
+  color-scheme: light;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
   color: #1f2937;
+  background-color: #f8fafc;
 }
 
 img {

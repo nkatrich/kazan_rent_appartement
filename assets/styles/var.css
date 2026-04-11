@@ -1,10 +1,4 @@
 :root {
-  color-scheme: light;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #1f2937;
-  background: #f8fafc;
   --bg: #ffffff;
   --surface: #ffffff;
   --muted: #6b7280;
