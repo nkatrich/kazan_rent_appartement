@@ -74,9 +74,45 @@ main {
 }
 
 .btn-sticky {
-  background: var(--accent);
-  color: #fff;
-  padding: 13px 18px;
+  position: relative;
+  text-decoration: none;
+  padding: 1em 1.5em;
+  border-radius: 6em;
+  transition: transform .3s, box-shadow .3s;
+  color: var(--primary-soft);
+  background-color: var(--accent);
+}
+
+.btn-sticky:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sticky:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sticky::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: background-color .45s, transform .45s, opacity .45s;
+}
+
+.btn-sticky::after {
+  background-color: var(--accent);
+}
+
+.btn-sticky:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }
 
 .hero {
