@@ -61,16 +61,10 @@ main {
   color: #fff;
 }
 
-.btn-secondary {
+.btn-secondary, .btn-outline {
   background: #fff;
   color: var(--primary);
   border: 1px solid var(--primary);
-}
-
-.btn-outline {
-  background: transparent;
-  color: var(--primary);
-  border: 1px solid var(--border);
 }
 
 .btn-sticky {
@@ -238,7 +232,7 @@ main {
 
 .splide__slide img {
   width: 100%;
-  min-height: 400px;
+  min-height: 450px;
   max-height: 500px;
   object-fit: contain;
 }
