@@ -89,11 +89,6 @@ main {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn-sticky:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
 .btn-sticky::after {
   content: "";
   display: inline-block;
@@ -243,8 +238,9 @@ main {
 
 .splide__slide img {
   width: 100%;
-  min-height: 300px;
-  object-fit: cover;
+  min-height: 400px;
+  max-height: 500px;
+  object-fit: contain;
 }
 
 .details {
