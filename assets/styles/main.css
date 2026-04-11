@@ -331,9 +331,9 @@ main {
   overflow: hidden;
 }
 
-.map-placeholder img {
+.map-placeholder iframe {
   width: 100%;
-  height: auto;
+  height: 450px;
 }
 
 .trust {
