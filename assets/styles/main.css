@@ -115,7 +115,7 @@ main {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(320px, 1fr);
   gap: 32px;
-  align-items: start;
+  align-items: center;
   margin-bottom: 48px;
 }
 
